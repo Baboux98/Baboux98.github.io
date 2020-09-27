@@ -1,0 +1,84 @@
+*{
+    padding:0;
+    margin:0;
+    list-style: none;
+    font-family:"Sofia";
+}
+html
+{
+    color: white;
+    
+    background:black;
+}
+.The_Yo
+{
+    font-size: 8rem;
+}
+.My_name
+{
+    font-size:3.1rem;
+}
+.Skill
+{
+    padding: 0rem 1.5rem 0rem 1.5rem;
+    
+}
+section
+{
+    text-align: center;
+    padding: 0rem 1rem 0rem 1rem;
+}
+.container {
+    display: flex; /* or inline-flex */
+   
+
+  }
+body
+{
+    margin: 0rem 1.6rem 0rem 1.6rem;
+    padding:1rem;
+    height: auto;
+}
+
+    
+  .yellow{
+      
+    border-style:solid;
+    border-color:gold;
+  }
+  
+  .orange{
+    border-style:solid;
+    border-color:orange;
+    box-shadow: 0px 0px 9px 4px orange;
+
+  }
+  
+  .red{
+    border-style:solid;
+    border-color:OrangeRed;
+    box-shadow: 0px 0px 5px 4px OrangeRed;
+
+  }
+  
+  .white{
+    border-style:solid;
+    border-color:white;
+  }
+  
+  .blue{
+    
+    border-style:solid;
+    border-color: SlateBlue;
+    box-shadow: 0px 0px 9px 4px gold;
+    box-shadow: 0px 0px 9px 4px white;
+    
+    
+  }
+  
+  .black{
+    
+    border-style:solid;
+    border-color: black;
+  }
+ 

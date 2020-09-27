@@ -1,0 +1,51 @@
+*
+{
+    border:none;
+    background-color: gray;
+}
+body
+{
+    background-color: gray;
+    margin: auto ;
+    width: 30%;
+}
+
+.en-tête__icône
+{
+    float:left;
+}
+
+.en-tête__titre
+{
+    display: inline;
+    font-size: 15px;
+    padding-left: 1rem;
+}
+
+.bouton-calcule__ligne
+{
+    display: flex;
+    align-items: stretch;
+}
+
+.ecran__input
+{
+    width: 100%;
+    height: 100px;
+    font-size:80px;
+    text-align: right;
+}
+.bouton
+{
+    height: 60px;
+    width: 100%;
+    font-size: 25px;
+    border: solid;
+}
+
+.--mode
+{
+    height: 25px;
+    font-size: 10px;
+    border:none;
+}
