@@ -1,0 +1,26 @@
+*
+{
+  padding:0px;
+  margin:0px;
+  color:white;
+  background-color: black;
+}
+.heading
+{
+  text-align: center;
+  font-size: 15rem;
+}
+.--style-writting
+{
+  font-style: italic;
+  letter-spacing: -30px;
+
+}
+.--clickable
+{
+  cursor: pointer;
+}
+.--link
+{
+  text-decoration: none;
+}

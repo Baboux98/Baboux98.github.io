@@ -1,0 +1,187 @@
+@font-face
+{
+    font-family: "ballpak";
+    src:url("../polices/ballpark.ttf");
+    font-style: normal;
+    font-weight: normal;
+    
+}
+@font-face
+{
+    font-family: "dayrom";
+    src:url("../polices/dayrom.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+.--ballpack
+{
+    font-family:"ballpak";
+    font-weight: normal;
+    
+
+    
+}
+.--dayrom
+{
+    font-family:"dayrom";
+    font-weight: normal;
+    text-transform: uppercase;
+
+}
+body
+{
+    background-image: url("../images/tp-openclassroom/fond_jaune.png");
+    width: 90%;
+    margin:auto;
+    font-family: "Trebuchet";
+}
+a
+{
+    cursor: pointer;
+    text-decoration: none;
+    color:black;
+}
+.header
+{
+    display: flex;
+    background-image: url("../images/tp-openclassroom/separateur.png");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.section
+{
+    display:flex;
+    justify-content: space-between;
+}
+.footer
+{
+    background-image: url("../images/tp-openclassroom/separateur.png");
+    background-position: top;
+    background-repeat: repeat-x;
+}
+.footer__
+{
+    display:flex;
+   
+    justify-content: space-between;
+
+}
+.--paragraph
+{
+    text-align: justify;
+}
+.section__article
+{
+    width: 75%;
+    margin-right: 1.5rem;
+}
+.section__aside
+{
+    width: 25%;
+    background-color: gray;
+    padding : 0.5rem;
+    height: 26rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 0px black;
+}
+.--uppercase
+{
+    text-transform: uppercase;
+}
+.section__aside__img
+{
+    display: block;
+    width: 50%;
+    margin:auto;
+    border:1px solid;
+}
+.section__aside__social
+{
+    width: 90%;
+    margin:auto;
+}
+.footer__part3
+{
+    width: 38%;
+}
+.footer__part3__list
+{
+    display:inline-block;
+    margin:0;
+    list-style-image: url("../images/tp-openclassroom/ico_liensexterne.png");
+    list-style-position: outside;
+}
+.banner
+{
+    background-image: url("../images/tp-openclassroom/sanfrancisco.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 200px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 0px black;
+    position: relative;
+}
+.banner__div
+{
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0,0,0,0.6);
+    height: 33px;
+    width: 100%;
+    position: absolute;
+    bottom:0px;
+}
+.banner__title
+{
+    font-size:15px;
+    margin-left: 5px;
+}
+.banner__button
+{
+    background: url("../images/tp-openclassroom/fond_degraderouge.png") repeat-x;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: 1px red solid;
+    color:white;
+    padding: 5px;
+}
+.section__article__logo
+{
+    float: left;
+}
+
+.header__nav__list__item
+{
+    display:inline;
+    margin-right: 20px;
+}
+.header__nav__list__item:hover
+{
+    text-decoration: underline solid black 5px;
+}
+.footer__top
+{
+    display:block;
+    width: 5%;
+    margin:auto;
+}
+.header__title
+{
+        font-family: "ballpak";
+        font-weight: normal;
+        text-align: left;
+        position: relative;
+        left: 50px;
+        margin:0;
+}
+
+.header__subtitle
+{
+    margin-top:0px;
+}
