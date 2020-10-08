@@ -24,3 +24,11 @@
 {
   text-decoration: none;
 }
+small
+{
+  font-size: 0.8rem;
+  background: none;
+  display: block;
+  width: auto;
+  margin: auto;
+}

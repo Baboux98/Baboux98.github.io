@@ -1,0 +1,26 @@
+.the__ball
+{
+    margin-top: 100px;
+    width: 25%;
+    height:300px;
+    border:2px solid black;
+    margin-left: auto;
+    margin-right:auto;
+    border-radius:50%;
+    background-color: chocolate;
+    box-shadow:inert5px 5px 5px 0px black;
+    transition : width 2s linear, height 6s linear, box-shadow 3s linear;
+    
+
+}
+.the__ball:hover
+{
+    width: 30%;
+    height: 400px;
+    box-shadow:5px 5px 5px 0px black;
+    
+}
+body
+{
+    background-color: gray;
+}
