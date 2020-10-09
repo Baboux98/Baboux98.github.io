@@ -8,7 +8,7 @@
     margin-right:auto;
     border-radius:50%;
     background-color: chocolate;
-    box-shadow:inset 5px 5px 10px black, 5px 5px 0px black;
+    box-shadow:inset 15px 55px 10px black, 5px 5px 0px black;
     transition : width 6s linear, height 6s linear, box-shadow 6s linear;
     transition-delay:20ms; 
     
@@ -18,10 +18,11 @@
 {
     width: 50%;
     height: 600px;
-    box-shadow:inset 5px 5px 20px 5px black,5px 5px 5px 0px black;
+    box-shadow:inset 5px 5px 10px black,15px 15px 5px 0px black;
     
 }
 body
 {
-    background-color: gray;
+    background-color: rgb(187, 128, 86)
+
 }
