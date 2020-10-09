@@ -1,13 +1,12 @@
-*
-{
-    border:none;
-    background-color: gray;
-}
+
+
 body
 {
     background-color: gray;
     margin: auto ;
-    width: 30%;
+    min-width: 30%;
+    max-width: 30%;
+    background: linear-gradient(65deg,rgb(64, 64, 110),rgba(150, 153, 136, 0.897));
 }
 
 .en-tête__icône

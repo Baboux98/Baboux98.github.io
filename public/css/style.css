@@ -26,9 +26,11 @@
 }
 small
 {
-  font-size: 0.8rem;
+  font-size: 1.3rem;
   background: none;
   display: block;
   width: auto;
+  margin-top:0px;
   margin: auto;
+  
 }

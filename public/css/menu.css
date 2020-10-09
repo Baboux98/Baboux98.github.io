@@ -1,0 +1,55 @@
+body
+{
+    width: 90%;
+    margin:auto;
+    background-color: black;
+}
+a
+{
+    text-decoration: none;
+    color:white;
+    transition: color 1ms;
+}
+a:hover
+{
+    color:#255784;
+}
+.header
+{
+    height: 75px;
+}
+.menu
+{
+    text-align: center;
+}
+
+.menu__list__item
+{
+    text-transform: uppercase;
+    display: block;
+    border:1px solid;
+    margin:auto;
+    margin-bottom:4rem;
+    width: 30%;
+    padding: 1.5rem 0rem 1.5rem 0rem; 
+    transition-property:background-color,border, box-shadow,color;
+    transition-delay:1ms;
+}
+.menu__list__item:hover
+{
+    background-color: #2196f3;
+    border: #2196f3 ;
+    box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3, 0 0 80px #2196f3  ;
+    color:#255784;
+}
+small
+{
+  font-size: 1.3rem;
+  background: none;
+  display: block;
+  width: auto;
+  margin-top:0px;
+  margin: auto;
+  color:white;
+  text-align: center;
+}

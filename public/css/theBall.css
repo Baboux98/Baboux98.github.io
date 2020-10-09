@@ -8,16 +8,17 @@
     margin-right:auto;
     border-radius:50%;
     background-color: chocolate;
-    box-shadow:inert5px 5px 5px 0px black;
-    transition : width 2s linear, height 6s linear, box-shadow 3s linear;
+    box-shadow:inset 5px 5px 10px black, 5px 5px 0px black;
+    transition : width 6s linear, height 6s linear, box-shadow 6s linear;
+    transition-delay:20ms; 
     
 
 }
 .the__ball:hover
 {
-    width: 30%;
-    height: 400px;
-    box-shadow:5px 5px 5px 0px black;
+    width: 50%;
+    height: 600px;
+    box-shadow:inset 5px 5px 20px 5px black,5px 5px 5px 0px black;
     
 }
 body
