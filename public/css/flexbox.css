@@ -1,0 +1,27 @@
+.container
+{
+    display: flex;
+    flex-direction: column;
+    width:235px ;
+    border:1px solid
+}
+.element:nth-child(1)
+{
+    background-color: blue;
+    width: 115px;
+    height: 45px;
+}
+.element:nth-child(2)
+{
+    background-color: green;
+    width: 115px;
+    height: 45px;
+    align-self: flex-end;
+}
+.element:nth-child(3)
+{
+    background-color: red;
+    width: 115px;
+    height: 45px; 
+}
+

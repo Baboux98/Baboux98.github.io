@@ -17,7 +17,6 @@
 {
     font-family:"ballpak";
     font-weight: normal;
-    
 
     
 }
@@ -26,7 +25,6 @@
     font-family:"dayrom";
     font-weight: normal;
     text-transform: uppercase;
-
 }
 body
 {
@@ -50,6 +48,10 @@ a
     justify-content: space-between;
     align-items: flex-end;
 }
+.section__aside h1
+    {
+        text-align: center;
+    }
 .bulle
 {
     position: absolute;
@@ -71,9 +73,7 @@ a
 .footer__
 {
     display:flex;
-   
     justify-content: space-between;
-
 }
 .--paragraph
 {
@@ -90,7 +90,7 @@ a
     width: 25%;
     background-color: gray;
     padding : 0.5rem;
-    height: 26rem;
+    height: 80%;
     border-radius: 5px;
     box-shadow: 5px 5px 10px 0px black;
 }
@@ -142,7 +142,8 @@ a
     justify-content: space-between;
     align-items: center;
     background-color: rgba(0,0,0,0.6);
-    height: 33px;
+    border-radius: 0px 0px 5px 5px;
+    height: 43px;
     width: 100%;
     position: absolute;
     bottom:0px;
@@ -178,20 +179,89 @@ a
 .footer__top
 {
     display:block;
-    width: 5%;
+    width: 55px;
     margin:auto;
+}
+.header__div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+.header__subtitle
+{
+    font-style: italic;
+    text-transform: inherit;
+    text-align: left;
+    margin:0px;
+    margin-bottom: 12px;
 }
 .header__title
 {
-        font-family: "ballpak";
-        font-weight: normal;
-        text-align: left;
-        position: relative;
-        left: 50px;
-        margin:0;
+    margin:0px;
+    font-size: 46px;
+    align-self: flex-end;
 }
-
-.header__subtitle
+.header__logo
 {
-    margin-top:0px;
+    width: 70px;
+}
+/* Media querie test*/
+
+@media screen and (max-width: 992px)
+{
+    /* Rédigez vos propriétés CSS ici */
+    .banner
+    {
+        display: none;
+    }
+    .section
+    {
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    body
+    {
+        width: 100%;
+    }
+    .section__aside
+    {
+        width: 100%;
+        margin:auto;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        box-shadow: 0px 0px 0px 0px;
+    }
+    .section__aside h1
+    {
+        text-align: center;
+    }
+    .footer__part3
+    {
+        width: 100%;
+
+    }
+    .section__article
+    {
+        width: 100%;
+    }
+    .footer__
+    {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .header__nav__list__item
+    {
+        display:block;
+        margin-right: 20px;
+    }
+    .bulle
+    {
+        display: none;
+    }
+    
 }
