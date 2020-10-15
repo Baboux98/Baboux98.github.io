@@ -1,36 +1,97 @@
-*
-{
-  padding:0px;
-  margin:0px;
-  color:white;
-  background-color: black;
-}
-.heading
-{
-  text-align: center;
-  font-size: 15rem;
-}
-.--style-writting
-{
-  font-style: italic;
-  letter-spacing: -30px;
+/*html tags*/
 
-}
-.--clickable
+body
 {
-  cursor: pointer;
+    margin: 0px;
+    padding:0px;
+    color:white;
+    background: black;
+    font-family: "Tangerine",Arial, Helvetica, sans-serif;
 }
-.--link
+a
 {
-  text-decoration: none;
+    text-decoration: none;
 }
-small
+/*Classes*/
+.small
 {
-  font-size: 1.3rem;
-  background: none;
-  display: block;
-  width: auto;
-  margin-top:0px;
-  margin: auto;
-  
+    display:block;
+    margin:auto;
+    font-size: 1.8rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.span
+{
+    font-size: 7rem;
+}
+
+.container
+{
+    width:80%;
+    margin:auto;
+    margin-top: 5.9rem;
+}
+.--text-center
+{
+    text-align: center;
+}
+.font-effect-fire-animation
+{
+    font-size:14rem;
+    font-family: none;
+}
+/*media__Queries*/
+@media screen and (max-width:1024px) and (max-width:768px) and (max-width:360px)
+{
+    .container
+    {
+        width: 100%;
+    }
+}
+@media screen and (max-width:1024px)
+{
+    .index__container
+    {
+        width: 100%;
+    }
+    .font-effect-fire-animation
+    {
+        font-size: 12rem;
+    }
+}
+@media screen and (max-width:768px)
+{
+    .container
+    {
+        width: 100%;
+    }
+    .font-effect-fire-animation
+    {
+        font-size: 9rem;
+    }
+    .small{
+        font-size: 1rem;
+    }
+    .span
+    {
+        font-size: 4.8rem;
+    }
+}
+@media screen and (max-width:360px)
+{
+    .container
+    {
+        width: 100%;
+    }
+    .font-effect-fire-animation
+    {
+        font-size: 4rem;
+    }
+    .small{
+        font-size: 0.8rem;
+    }
+    .span
+    {
+        font-size: 2.3rem;
+    }
 }

@@ -207,6 +207,9 @@ a
 {
     width: 70px;
 }
+.footer__part1{
+    width: 33%;
+}
 /* Media querie test*/
 
 @media screen and (max-width: 992px)
@@ -254,6 +257,7 @@ a
         text-align: center;
         
     }
+
     .header__nav__list__item
     {
         display:block;

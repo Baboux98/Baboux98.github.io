@@ -1,55 +1,121 @@
-body
-{
-    width: 90%;
-    margin:auto;
-    background-color: black;
+/*html tag*/
+body {
+  margin: 0px;
+  padding: 0px;
+  background: black;
+  color: white;
 }
-a
-{
-    text-decoration: none;
-    color:white;
-    transition: color 1ms;
+a {
+  text-decoration: none;
+  color: white;
 }
-a:hover
-{
-    color:#255784;
+/*Classes*/
+.menu__container {
+  width: auto;
+  margin: auto;
+  margin-top: 4rem;
 }
-.header
-{
-    height: 75px;
+.menu__list {
+  height: 600px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
 }
-.menu
-{
-    text-align: center;
+.menu__list__item {
+  border: 1px solid white;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu__list__subitem{
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.menu__list__item
-{
-    text-transform: uppercase;
-    display: block;
-    border:1px solid;
-    margin:auto;
-    margin-bottom:4rem;
-    width: 30%;
-    padding: 1.5rem 0rem 1.5rem 0rem; 
-    transition-property:background-color,border, box-shadow,color;
-    transition-delay:1ms;
+/*background-effet-fire-animation-keyframe*/
+
+@keyframes background-effect-fire-animation-keyframes {
+  0% {
+    background-color: #fff;
+  }
+  12.5% {
+    background-color: #fff;
+  }
+  25% {
+    background-color: #fe0;
+  }
+  37.5% {
+    background-color: #fc0;
+  }
+  50% {
+    background-color: #f90;
+  }
+  65.2% {
+    background-color: #f70;
+  }
+  75% {
+    background-color: #f70;
+  }
+  87.5% {
+    background-color: #f50;
+  }
+  100% {
+    background-color: #f40;
+  }
 }
-.menu__list__item:hover
-{
-    background-color: #2196f3;
-    border: #2196f3 ;
-    box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3, 0 0 80px #2196f3  ;
-    color:#255784;
+
+.background-effect-fire-animation {
+  animation-duration: 0.8s;
+  animation-name: background-effect-fire-animation-keyframes;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  background-color: #ffe;
 }
-small
-{
-  font-size: 1.3rem;
-  background: none;
-  display: block;
-  width: auto;
-  margin-top:0px;
-  margin: auto;
-  color:white;
-  text-align: center;
+
+/*block-effet-fire-animation-keyframe*/
+
+@keyframes block-effect-fire-animation-keyframes {
+  0% {
+    box-shadow: 0 -0.05em 0.2em #fff, 0.01em -0.02em 0.15em #fe0,
+      0.01em -0.05em 0.15em #fc0, 0.02em -0.15em 0.2em #f90,
+      0.04em -0.2em 0.3em #f70, 0.05em -0.25em 0.4em #f70,
+      0.06em -0.2em 0.9em #f50, 0.1em -0.1em 1em #f40;
+  }
+  25% {
+    box-shadow: 0 -0.05em 0.2em #fff, 0 -0.05em 0.17em #fe0,
+      0.04em -0.12em 0.22em #fc0, 0.04em -0.13em 0.27em #f90,
+      0.05em -0.23em 0.33em #f70, 0.07em -0.28em 0.47em #f70,
+      0.1em -0.3em 0.8em #f50, 0.1em -0.3em 0.9em #f40;
+  }
+  50% {
+    box-shadow: 0 -0.05em 0.2em #fff, 0.01em -0.02em 0.15em #fe0,
+      0.01em -0.05em 0.15em #fc0, 0.02em -0.15em 0.2em #f90,
+      0.04em -0.2em 0.3em #f70, 0.05em -0.25em 0.4em #f70,
+      0.06em -0.2em 0.9em #f50, 0.1em -0.1em 1em #f40;
+  }
+  75% {
+    box-shadow: 0 -0.05em 0.2em #fff, 0 -0.06em 0.18em #fe0,
+      0.05em -0.15em 0.23em #fc0, 0.05em -0.15em 0.3em #f90,
+      0.07em -0.25em 0.4em #f70, 0.09em -0.3em 0.5em #f70,
+      0.1em -0.3em 0.9em #f50, 0.1em -0.3em 1em #f40;
+  }
+  100% {
+    box-shadow: 0 -0.05em 0.2em #fff, 0.01em -0.02em 0.15em #fe0,
+      0.01em -0.05em 0.15em #fc0, 0.02em -0.15em 0.2em #f90,
+      0.04em -0.2em 0.3em #f70, 0.05em -0.25em 0.4em #f70,
+      0.06em -0.2em 0.9em #f50, 0.1em -0.1em 1em #f40;
+  }
+}
+.block-effect-fire-animation {
+  animation-duration: 0.8s;
+  animation-name: block-effect-fire-animation-keyframes;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  color: #ffe;
 }
